@@ -5,6 +5,7 @@
     rgb(196, 214, 252) 1%,
     rgba(187, 187, 187, 0) 70.9%
   );
+  --shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
@@ -57,6 +58,7 @@ p {
 .contact {
   background-color: var(--main-color);
   color: white;
+  box-shadow: var(--shadow);
 }
 
 .my-info {
